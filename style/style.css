@@ -76,10 +76,11 @@ body{
     }
 .button_orange{
     background: var(--accent-color);
+    margin-left: 20px;
     }
 .button_orange:hover{
     background: #f67543;
-    transition: 500 ms; 
+    transition: 500 ms;
     }
 .button_violet{
     background: var(--violet-color);

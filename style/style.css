@@ -1,3 +1,20 @@
+/* Variables */
+:root {
+    --primary-font: "DM Sans", sans-serif;
+    --primary-color: #191918;
+    --secondary-color: #696871;
+    --accent-color: #ff7143;
+    --accent-light-color: rgba(255, 113, 67, 0.27);
+    --violet-color: #291345;
+    --blue-color: #5454d4;
+    --light-gray: #f8f8f8;
+    --container-max-width: 1070px;
+    --button-width: 212px;
+    --button-height: 60px;
+    --button-radius: 10px;
+  }
+
+
 body{
     font-family: DM Sans, sans-serif;
     display: block;

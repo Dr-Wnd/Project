@@ -101,29 +101,57 @@ body{
     background: #9F3919;
     transition:  500ms;
     }
-
-
+/* About Section */
 .about{
     margin: 105px auto 85px;
     }
 .about_title{
    font-weight: bold;
    font-size: 80px;
-   line-height: 77px;
+   line-height: 0.96; /*Simplified Line height*/
    letter-spacing: -2.50105;
-   color: #191918;
+   color: var(--primary-color);
    max-width:  467px;
    margin-bottom: 30px;
     }
 .about_text{
     font-size: 20px;
-    line-height: 30px;
+    line-height: 1.5; /*Simplified Line height*/
     letter-spacing: -0.625263px;
-    color: #696871;
+    color: var(--secondary-color);
     max-width: 400px;
     margin-bottom: 50px;
     }
-
+/* Subscribe Section */
+.subscribe {
+    margin-bottom: 85px;
+  }
+  
+  .subscribe_title {
+    font-size: 50px;
+    line-height: 1.14; /*Simplified Line height*/
+    color: var(--primary-color);
+    margin-bottom: 38px;
+  }
+  
+  .input {
+    width: 302px;
+    height: var(--button-height);
+    border-radius: var(--button-radius);
+    border: 1px solid #7087ff;
+    padding-left: 14px;
+    box-sizing: border-box;
+    margin-right: 39px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.5314774px;
+    color: var(--primary-color);
+  }
+  
+  .input:focus {
+    outline: none;
+  }
 .footer{
     background-color: rgba(255, 113, 67, 0.27);
     padding: 53px 0;
@@ -131,37 +159,7 @@ body{
 .nav {
     margin-left: 300px;
     }
-.subscribe {
-    margin-bottom: 85px;
-    }
-.subscribe_title {
-    font-family: DM Sans;
-    font-style: Bold;
-    font-size: 50px;
-    line-height: 57px;
-    line-height: 88%;
-    color: #191918;
-    margin-bottom: 38px; 
-    }
-.input {
-    width: 302px;
-    height: 60px;
-    border-radius: 10px;
-    border: 1px solid #7087ff;
-    padding-left: 14px;
-    box-sizing: border-box;
-    margin-right: 39px;
-    }
-.input::placeholder, .input {
-    font-weight: bold;
-    font-size: 17px;
-    line-height:  22px;
-    letter-spacing: -0.5314774px;
-    color: #000000;   
-    }
-.input:focus{
-    outline: none; 
-    }
+
 .plan {
     margin-bottom: 132px;
     }

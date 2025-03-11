@@ -41,22 +41,20 @@ body{
     padding: 0;
     margin: 0;
     display: flex;
-  }
-.nav_li{
-    display:inline-block;
     }
-.nav_li:not(:first-child) {
+
+.nav li:not(:first-child) {
     margin-left: 39px;
     }
-.nav_link{
+.nav a {
     font-weight: bold;
     font: size 15px; 
     line-height: 20px;
     letter-spacing: 0.468947px;
-    color: #696871;
+    color: var(--secondary-color);
     text-decoration: none;
     }
-.nav_link:hover{
+.nav a:hover{
     color: black;
     transition: 300ms;
     }

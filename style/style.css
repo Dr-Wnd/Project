@@ -13,19 +13,21 @@
     --button-height: 60px;
     --button-radius: 10px;
   }
-
-
+/* Base Styles */
 body{
-    font-family: DM Sans, sans-serif;
+    font-family: var(--primary-font);
     display: block;
-    margin: 0px;
+    margin: 0;
     } 
 .container {
-    max-width: 1070px;
+    max-width: var(--container-max-width);
     margin: 0 auto;
+    padding: 0 20px; /* Add padding for smaller screens */
+    box-sizing: border-box; /* Include padding in width calculations */
     }
+/* Layout Elements */
 .header, .footer{
-    background-color: rgba(255, 113, 67, 0.27);
+    background-color: var(--accent-light-color);
     padding: 38px 0 48px;
     }
 .header_flex, .footer_flex, .about, .subscribe, .plan_flex{

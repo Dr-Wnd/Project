@@ -35,10 +35,17 @@ body{
     justify-content: space-between;
     align-items: center;
     }
+/* Navigation */
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
 .nav_li{
     display:inline-block;
     }
-.nav_li:not(:first-of-type) {
+.nav_li:not(:first-child) {
     margin-left: 39px;
     }
 .nav_link{
